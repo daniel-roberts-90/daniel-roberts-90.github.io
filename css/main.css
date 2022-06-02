@@ -187,7 +187,8 @@ color: #e8491d;
 }
 
 article#main-call p.info {
-	font-size: 5px;
+	font-size: 15px;
+	margin: auto;
 }
 
 /*services*/
