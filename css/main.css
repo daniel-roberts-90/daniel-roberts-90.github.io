@@ -6,6 +6,7 @@ body{
 	background-color: #f4f4f4;
 }
 
+
 /*Global*/
 .container {
 
@@ -97,6 +98,7 @@ header a:hover{
     background-repeat: no-repeat;
     text-align: center;
     color: #e8491d;
+    font-weight: bold;
 
 
 
@@ -104,12 +106,12 @@ header a:hover{
 
 #showcase h1{
 	margin-top: 100px;
-	font-size: 55px;
+	font-size: 100px;
 	margin-bottom: 10px;
 }
 
-showcase p{
-	font-size: 20px;
+#showcase p{
+	font-size: 25px;
 }
 
 
@@ -151,7 +153,7 @@ showcase p{
 }
 
 #boxes .box img{
-	width: 90px;
+	width: 100px;
 }
 
 /*sidebar*/
@@ -175,6 +177,17 @@ aside#sidebar .quote input, aside#sidebar .quote textarea{
 article#main-call{
 	float: left;
 	width: 65%;
+	font-size: 25px;
+}
+article#main-call p.title{
+font-size: 20px;
+font-weight: bold;
+color: #e8491d;
+
+}
+
+article#main-call p.info {
+	font-size: 15px;
 }
 
 /*services*/
@@ -211,6 +224,7 @@ footer{
 		float: none;
 		text-align: center;
 		width: 100%;
+
 	}
 
 	header{
@@ -229,6 +243,9 @@ footer{
 	#newsletter form input[type="email"], .quote input, .quote textarea{
 		width: 100%;
 		margin-bottom: 5px;
+	}
+	#container main-call h1 {
+		font-size: 100px;
 	}
 
 }
