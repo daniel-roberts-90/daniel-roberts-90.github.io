@@ -245,9 +245,5 @@ footer{
 	#newsletter form input[type="email"], .quote input, .quote textarea{
 		width: 100%;
 		margin-bottom: 5px;
-	}
-	#container main-call h1 {
-		font-size: 100px;
-	}
 
 }
