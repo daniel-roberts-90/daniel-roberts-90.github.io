@@ -199,7 +199,8 @@ ul#services li{
 	border: #ccc solid 1px;
 	margin-bottom: 5px;
 	background: #e6e6e6;
-	font-size: 2vw;
+	font-size: 1.5vw;
+	width: 50%;
 }
 
 
@@ -248,7 +249,7 @@ footer{
 		
 		}
 	#container main-call h1 {
-		font-size: 2vw;
+		font-size: 1.5vw;
 	}
 
 }
